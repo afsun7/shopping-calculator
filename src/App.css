@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.customer {
+  width: 100%;
+
+  background-color: rgb(230, 230, 230);
+  height: 80vh;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 25px;
+  border: none;
+}
+button {
+  color: blue;
+}
+.showProducts {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 100%;
+}
+.showProduct {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  background-color: rgb(230, 230, 230);
+  margin: 2px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+}
+.showProduct label {
+  color: gray;
+}
+
+.showMenu {
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+}
+.showMenu > div {
+  background-color: #fff;
+  width: 100px;
+  padding: 5px;
+}
+.showProduct button {
+  margin-right: 3px;
+  background: rgb(177, 207, 221);
+}
+.showButton {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 5px;
+  align-items: end;
+}
+.showTotals {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(230, 230, 230);
+  margin: 2px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+.showTotal {
+  display: flex;
+  flex-direction: column;
+}
+.customerEdit {
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+}
